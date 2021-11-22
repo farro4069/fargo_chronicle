@@ -1,0 +1,119 @@
+:root {
+	--clr-text: #333333;
+	--clr-text-light: #d6d6d6;
+	--clr-background: #f0f0f0;
+	--clr-feature: #0000ff;
+	--clr-accent: #2f3f9f;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	color: var(--clr-text);
+}
+
+h1 {
+	font-family: 'Luckiest Guy', cursive;
+	color: var(--clr-text-light);
+}
+
+p {
+	line-height: 1.2;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: .8em;
+	color: var(--clr-accent);
+	margin: 2px 0 5px 0;
+}
+
+.container {
+	max-width: min(60em, 80vw);
+	margin: auto;
+	padding: 20px;
+	background-color: var(--clr-background);
+}
+
+.masthead {
+	width: 100%;
+	border-bottom: solid 3px var(--clr-accent);
+	margin-bottom: 20px;
+}
+
+.masthead__title {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 64px;
+	letter-spacing: 6px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px 0px;
+	padding: 15px 0 0 0;
+	background-color: var(--clr-accent);
+	border-radius: 10px;
+
+}
+
+.strap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.story__items {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	grid-gap: 20px;
+	grid-auto-flow: dense;
+}
+
+.story__item {
+	display: flex;
+	flex-direction: column;
+	grid-row: span 2;
+
+}
+
+.featured {
+	grid-column: span 2;
+	grid-row: span 6;
+	font-size: 1.125em;
+	padding: 0 5px;
+	box-shadow: 0 0 1px #000;
+}
+
+.short {
+	grid-row: span 4;
+}
+
+.medium {
+	grid-row: span 6;
+}
+.long {
+	grid-row: span 8;
+}
+
+.story {
+
+}
+
+.story::first-letter {
+	color: var(--clr-accent);
+	font-size: 2.1em;
+	float: left;
+	margin: 5px 2px 0 0;
+}
+
+.footer {
+	width: 100%;
+	height: 40px;
+	border-top: solid 3px var(--clr-accent);
+}
