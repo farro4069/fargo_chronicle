@@ -84,8 +84,13 @@ figcaption {
 .story__item {
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
 	grid-row: span 2;
+}
 
+.story__item img {
+	width: 100%;
+	height: auto;
 }
 
 .featured {
