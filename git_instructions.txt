@@ -9,8 +9,8 @@ git remote add origin https://github.com/farro4069/fargo_chronicle.git
 git push -u origin main
 
 
-Update
-git remote add origin https://github.com/farro4069/fargo_chronicle.git
-git branch -M main
-git push -u origin main
-
+To update the repo
+'git init'
+‘git add -A’
+‘git commit -m “Update of description”’
+‘git push origin main’
