@@ -95,14 +95,14 @@ figcaption {
 
 .featured {
 	grid-column: span 2;
-	grid-row: span 6;
+	grid-row: span 5;
 	font-size: 1.125em;
 	padding: 0 5px;
 	box-shadow: 0 0 1px #000;
 }
 
 .short {
-	grid-row: span 4;
+	grid-row: span 3;
 }
 
 .medium {
@@ -118,9 +118,9 @@ figcaption {
 
 .story::first-letter {
 	color: var(--clr-accent);
-	font-size: 2.1em;
+	font-size: 2.5em;
 	float: left;
-	margin: 5px 2px 0 0;
+	margin: 0px 2px 0 0;
 }
 
 .footer {
