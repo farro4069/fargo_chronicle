@@ -95,7 +95,7 @@ figcaption {
 
 .featured {
 	grid-column: span 2;
-	grid-row: span 5;
+/*	grid-row: span 5;*/
 	font-size: 1.125em;
 	padding: 0 5px;
 	box-shadow: 0 0 1px #000;
@@ -105,12 +105,27 @@ figcaption {
 	grid-row: span 3;
 }
 
+.short2 {
+	grid-row: span 3;
+}
+
+
 .medium {
 	grid-row: span 6;
 }
+
+.medium3 {
+	grid-row: span 6;
+}
+
 .long {
 	grid-row: span 8;
 }
+
+.long4 {
+	grid-row: span 8;
+}
+
 
 .story {
 
