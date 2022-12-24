@@ -132,19 +132,20 @@ figcaption {
 	border-top: solid 3px var(--clr-accent);
 }
 
-.bt {
+.bt > a {
 	text-transform: uppercase;
+	font-size: 0.8em;
 	font-weight: 400;
-	margin: 2px;
-	padding: 10px 20px;
+	margin-left: 5px;
+	padding: 5px 20px;
 	color: var(--clr-background);
 	background-color: var(--clr-accent);
 	border: none;
 	border-radius: 5px;
-	cursor: pointer;
 }
 
-.bt:hover {
+.bt > a:hover {
+	cursor: pointer;
 	color: var(--clr-background);
 	background-color: var(--clr-text);
 }
